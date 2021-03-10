@@ -1,0 +1,21 @@
+.sidebar__upper {
+    padding: 15px 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar__upper > div {
+    display: flex;
+    align-items: center;
+    padding: 15px 5px;
+}
+
+.sidebar__upper > div:hover {
+    background: #6A61C0;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.sidebar__upper > div > span {
+   margin-left: 10px;
+}

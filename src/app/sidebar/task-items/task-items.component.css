@@ -1,0 +1,15 @@
+.taskItems {
+    display: flex;
+    flex-direction: column;
+    padding: 15px 15px;
+}
+
+.taskItems__title {
+    margin-bottom: 15px;
+}
+
+.taskItems > span {
+    text-align: center;
+    padding: 15px 0px;
+    margin: 5px 0px;
+}
