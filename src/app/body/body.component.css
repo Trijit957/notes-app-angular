@@ -1,3 +1,22 @@
-.body__header > button > span {
-    font-weight: bold !important;
+.body__header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+}
+
+.body__header > button {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0 10px;
+    display: flex;
+}
+
+span {
+    margin-left: 5px !important;
+}
+
+.body__content {
+    border: 1px solid red;
+    display: grid;
+    
 }

@@ -13,6 +13,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { MatIconModule } from '@angular/material/icon';
 import { AvatarModule } from 'ngx-avatar';
 import {MatButtonModule} from '@angular/material/button';
+import { MatCardModule } from '@angular/material/card';
 
 import { TaskItemsComponent } from './sidebar/task-items/task-items.component';
 
@@ -32,7 +33,8 @@ import { TaskItemsComponent } from './sidebar/task-items/task-items.component';
     NoopAnimationsModule,
     MatIconModule,
     AvatarModule,
-    MatButtonModule
+    MatButtonModule,
+    MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent]
